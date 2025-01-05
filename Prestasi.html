@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prestasi Mahasiswa Prodi Pendidikan Matematika</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS for zig-zag text effect */
+        .zigzag-text {
+            font-size: 2rem;
+            text-align: center;
+            animation: zigzag 2s infinite alternate;
+        }
+
+        @keyframes zigzag {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(20px); }
+            100% { transform: translateX(0); }
+        }
+
+        .prestasi-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .prestasi-section img {
+            width: 100%;
+            max-width: 500px;
+            margin: 10px 0;
+        }
+
+        .prestasi-description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Kampus">
+            </div>
+            <div class="header-right">
+                <h2>Prestasi Mahasiswa Prodi Pendidikan Matematika</h2>
+                <p>Universitas PGRI Silampari</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang-kami.html">Tentang kami</a></li>
+            <li><a href="kurikulum.html">Kurikulum</a></li>
+            <li><a href="beasiswa.html">Beasiswa</a></li>
+            <li><a href="fasilitas.html">Fasilitas</a></li>
+            <li><a href="Akreditasi.html">Akreditasi</a></li>
+            <li><a href="Prestasi.html">Prestasi</a></li>
+        </ul>
+    </nav>
+
+    <section id="prestasi">
+        <div class="container">
+            <h2 class="zigzag-text">Prestasi Mahasiswa Matematika yang Membanggakan!</h2>
+            <p class="prestasi-description">Kami dengan bangga mempersembahkan prestasi mahasiswa Program Studi Pendidikan Matematika Universitas PGRI Silampari yang telah meraih berbagai pencapaian di tingkat nasional dan internasional.</p>
+
+            <div class="prestasi-section">
+                <h3>Lulusan Pertukaran Mahasiswa Merdeka (PMM)</h3>
+                <img src="pmm.jpg" alt="Mahasiswa PMM">
+                <p>Mahasiswa kami berhasil mengikuti program Pertukaran Mahasiswa Merdeka (PMM) yang memberikan kesempatan untuk belajar di luar kampus dan berkolaborasi dengan universitas lain di Indonesia.</p>
+            </div>
+
+            <div class="prestasi-section">
+                <h3>Lulusan Kampus Mengajar (KM)</h3>
+                <img src="kampus-mengajar.jpg" alt="Mahasiswa Kampus Mengajar">
+                <p>Beberapa mahasiswa kami telah lulus dan sukses mengikuti program Kampus Mengajar yang memberikan pengalaman mengajar di sekolah-sekolah di daerah terpencil.</p>
+            </div>
+
+            <div class="prestasi-section">
+                <h3>Lulusan MSIB (Merdeka Student Internship and Building)</h3>
+                <img src="msib1.jpg" alt="Mahasiswa MSIB 1">
+                <img src="msib2.jpg" alt="Mahasiswa MSIB 2">
+                <p>Mahasiswa kami juga berpartisipasi dalam program MSIB, yang memungkinkan mereka untuk magang di berbagai perusahaan besar serta membangun jejaring profesional di industri.</p>
+            </div>
+
+            <div class="prestasi-section">
+                <h3>Lulusan PKM (Program Kreativitas Mahasiswa)</h3>
+                <img src="pkm.jpg" alt="Mahasiswa PKM">
+                <p>Program Kreativitas Mahasiswa (PKM) menjadi wadah bagi mahasiswa untuk berinovasi. Kami bangga dengan mahasiswa yang telah mengembangkan ide-ide kreatif dan meraih berbagai penghargaan.</p>
+            </div>
+
+            <div class="prestasi-section">
+                <h3>Lulusan Olimpiade Matematika</h3>
+                <img src="olimpiade1.jpg" alt="Mahasiswa Olimpiade 1">
+                <img src="olimpiade2.jpg" alt="Mahasiswa Olimpiade 2">
+                <p>Beberapa mahasiswa kami berhasil meraih medali di Olimpiade Matematika, baik tingkat nasional maupun internasional, membuktikan kualitas pendidikan di prodi kami.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Universitas PGRI Silampari. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
